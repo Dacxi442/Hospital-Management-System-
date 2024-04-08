@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home Page</title>
+<style>
+    /* CSS for grid layout */
+    .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .container > div {
+        background-color: #f0f0f0;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+        transition: background-color 0.3s ease;
+    }
+
+    .container > div:hover {
+        background-color: #ccc;
+    }
+
+    .container a {
+        text-decoration: none;
+        color: #333;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <div><a href="../patients/table.php">Patients</a></div>
+    <div><a href="../doctors/table.php">Doctors</a></div>
+    <div><a href="../staff_members/table.php">Staff Members</a></div>
+    <div><a href="../department/table.php">Departments</a></div>
+    <div><a href="../medical_history/table.php">Medical History</a></div>
+    <!-- Add more links as needed -->
+</div>
+</body>
+</html>
