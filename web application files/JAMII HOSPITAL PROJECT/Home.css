@@ -1,0 +1,184 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.me {
+    width: 100%;
+    height: 95vh; /* Adjust height as needed */
+    background-image: url("assets/hospital1.PNG");
+    background-size:cover;
+    background-position: center;
+    color: white;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+}
+
+.txt {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 100%; /* Adjust width as needed */
+    max-width: 700px; /* Max width for text container */
+}
+.bg-dark-grey {
+background-color: #152c44;
+color: white; /* Ensures text color contrasts with the dark background */
+}
+.find-us-section {
+background-color: #f9f9f9;
+padding: 50px 0;
+text-align: center;
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+}
+
+h2, h3 {
+color: #f75d04;
+}
+
+.feature-img {
+    width: 400px;
+    height: 300px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.feature-item {
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.feature-content {
+    padding: 20px;
+}
+
+.feature-content h4 {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.feature-content p {
+    color: #555;
+}
+.contact-info {
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #152c44;
+    color: #fff;
+}
+
+.contact-item {
+    display: flex;
+    align-items: start;
+}
+
+.contact-item i {
+    font-size: 30px;
+    margin-right: 15px;
+    color: #007bff;
+}
+
+.contact-item h4 {
+    margin-bottom: 5px;
+    color: #f75d04;
+}
+
+.contact-item p {
+    margin: 1;
+    color: #555;
+}
+
+.appointment-form {
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #152c44;
+    color: #fff;
+}
+
+.appointment-form h3 {
+    color: #fff;
+}
+
+.appointment-form input[type="text"],
+.appointment-form input[type="email"],
+.appointment-form input[type="tel"],
+.appointment-form textarea {
+    background-color: rgba(236, 241, 245, 0.959);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.appointment-form input[type="text"]:focus,
+.appointment-form input[type="email"]:focus,
+.appointment-form input[type="tel"]:focus,
+.appointment-form textarea:focus {
+    background-color: rgba(255, 255, 255, 0.3);
+    outline: none;
+}
+
+.appointment-form button[type="submit"] {
+    background-color: #0056b3;
+    border: none;
+}
+
+.appointment-form button[type="submit"]:hover {
+    background-color: #004580;
+}
+
+.footer {
+    background-color: #152c44;
+    padding: 50px 0;
+}
+
+.footer h4 {
+    color: #f75d04;
+    font-weight: bolder;
+}
+
+.footer p,
+.footer ul {
+    color: #666;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons li:last-child {
+    margin-right: 0;
+}
+
+.social-icons a {
+    color: #ff3a3a;
+    font-size: 24px;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.contact-info i {
+    margin-right: 10px;
+}
+
+hr {
+    border-color: #ddd;
+}
+
+.footer p {
+    color: #777;
+    margin-bottom: 0;
+    font-size: 14px;
+}
